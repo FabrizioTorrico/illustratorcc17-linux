@@ -42,7 +42,10 @@ sudo pacman -Syu archlinuxcn-keyring
 ### install with easy installer
 ```bash
 wget https://github.com/harchlinux/illustratorcc17-linux/releases/download/1.5.0/illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
+
 sudo pacman -U illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
+
+ sudo chown -R $USER:$USER /opt/Illustrator-2017/
 
 ```
 # Post-install setup (automatic)

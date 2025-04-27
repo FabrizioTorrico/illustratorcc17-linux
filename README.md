@@ -45,7 +45,7 @@ wget https://github.com/harchlinux/illustratorcc17-linux/releases/download/1.5.0
 
 sudo pacman -U illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
 
- sudo chown -R $USER:$USER /opt/Illustrator-2017/
+ sudo chown -R $USER:$USER /opt/Illustrator-CC/
 
 ```
 # Post-install setup (automatic)
